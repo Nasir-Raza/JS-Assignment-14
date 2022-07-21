@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="sub">
+            <table>
+                <tr>
+                    <td colspan="6"><input id="input" class="input" type="text"></td>
+                </tr>
+                <tr>
+                    <td><button id="A" value="A" onClick="setInput('A')">A</button></td>
+                    <td><button id="Z" value="Z" onClick="setInput('Z')">Z</button></td>
+                    <td><button id="E" value="E" onClick="setInput('E')">E</button></td>
+                    <td><button id="F" value="F" onClick="setInput('F')">F</button></td>
+                    <td><button id="X" value="X" onClick="setInput('X')">X</button></td>
+                    <td><button id="I" value="I" onClick="setInput('I')">I</button></td>
+                </tr>
+                <tr>
+                    <td><button id="U" value="U" onClick="setInput('U')">U</button></td>
+                    <td><button id="G" value="G" onClick="setInput('G')">G</button></td>
+                    <td><button id="K" value="K" onClick="setInput('K')">K</button></td>
+                    <td><button id="L" value="L" onClick="setInput('L')">L</button></td>
+                    <td><button id="M" value="M" onClick="setInput('M')">M</button></td>
+                    <td><button id="O" value="O" onClick="setInput('O')">O</button></td>
+                </tr>
+                <tr>
+                    <td><button id="T" value="T" onClick="setInput('T')">T</button></td>
+                    <td><button id="Y" value="Y" onClick="setInput('Y')">Y</button></td>
+                    <td><button id="P" value="P" onClick="setInput('P')">P</button></td>
+                    <td><button id="Q" value="Q" onClick="setInput('Q')">Q</button></td>
+                    <td><button id="N" value="N" onClick="setInput('N')">N</button></td>
+                    <td><button id="D" value="D" onClick="setInput('D')">D</button></td>
+                </tr>
+                <tr>
+                    <td><button id="B" value="B" onClick="setInput('B')">B</button></td>
+                    <td><button id="R" value="R" onClick="setInput('R')">R</button></td>
+                    <td><button id="J" value="J" onClick="setInput('J')">J</button></td>
+                    <td><button id="S" value="S" onClick="setInput('S')">S</button></td>
+                    <td><button id="W" value="W" onClick="setInput('W')">W</button></td>
+                    <td><button id="H" value="H" onClick="setInput('H')">H</button></td>
+                </tr>
+                <tr>
+                    <td><button id="I" value="I" onClick="setInput('I')">I</button></td>
+                    <td><button id="S" value="S" onClick="setInput('S')">S</button></td>
+                    <td><button id="D" value="D" onClick="setInput('D')">D</button></td>
+                    <td><button id="T" value="T" onClick="setInput('T')">T</button></td>
+                    <td><button id="X" value="X" onClick="setInput('X')">X</button></td>
+                    <td><button id="C" value="C" onClick="setInput('C')">C</button></td>
+                </tr>
+                <tr>
+                    <td><button id="A" value="A" onClick="setInput('A')">A</button></td>
+                    <td><button id="Z" value="Z" onClick="setInput('Z')">Z</button></td>
+                    <td><button id="X" value="X" onClick="setInput('X')">X</button></td>
+                    <td><button id="U" value="U" onClick="setInput('U')">U</button></td>
+                    <td><button id="Y" value="Y" onClick="setInput('Y')">Y</button></td>
+                    <td><button id="C" value="C" onClick="setInput('C')">C</button></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><button class="match" id="match" value="match" onClick="matchWord()">Match
+                            Word</button>
+                    </td>
+                    <td colspan="2"><button class="match" id="clear" value="clear" onClick="resetGame()">Reset</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6"><span>Score</span></td>
+
+                </tr>
+                <tr>
+                    <td class="score" colspan="6"><span id="wordmatched">Words Matched: </span></td>
+                </tr>
+                <tr>
+                    <td class="score" colspan="6"><span id="wordmismatched">Words Mismatched: </span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="sub">
+            <table id="wordslist"></table>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
