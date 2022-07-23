@@ -1,7 +1,7 @@
-h1{
-text-align: center;
-color: red;
-background-color: azure;
+h1 {
+    text-align: center;
+    color: red;
+    background-color: azure;
 }
 
 .main {
@@ -14,7 +14,7 @@ background-color: azure;
     height: 580px;
     border: solid 2px blue;
     background-color: yellow;
-    text-align: center; 
+    text-align: center;
 }
 
 .sub {
@@ -24,88 +24,92 @@ background-color: azure;
     margin-top: 5px;
     width: 40%;
     border: solid 2px rgb(61, 150, 147);
-    background-color:rgb(255, 250, 250);
+    background-color: rgb(255, 250, 250);
     overflow-y: auto;
     height: 550px;
 }
 
-.input{
+.input {
     width: 352px;
-    height:40px;
+    height: 40px;
     font-size: x-large;
-    color:blue;
+    color: blue;
     font-weight: bold;
 }
 
-td{
+td {
     width: 50px;
     height: 50px;
     text-align: center;
-    color:rgb(235, 11, 179);
+    color: rgb(235, 11, 179);
     font-size: xx-large;
     font-weight: bold;
 }
 
-.score{
+.score {
     text-align: Left;
     font-size: x-large;
     height: 20px;
 }
 
-button{
+button {
     width: 50px;
     height: 50px;
-    color:rgb(235, 11, 179);
+    color: rgb(235, 11, 179);
     font-size: x-large;
     font-weight: bold;
 }
 
-#match{
+#match {
     width: 230px;
     height: 50px;
 }
 
-#clear{
+#clear {
     width: 110px;
     height: 50px;
 }
 
-.wordmatched1{
-    width: 295px;
+.wordmatched1 {
+    width: 310px;
     color: blue;
     background-color: rgb(14, 192, 14);
     text-align: left;
     padding-left: 10px;
 }
 
-.wordmismatched1{
-    width: 295px;
+.wordmismatched1 {
+    width: 310px;
     color: yellow;
     background-color: red;
     text-align: left;
     padding-left: 10px;
 }
 
-.wordmatched2{
-    width: 60px;
+.wordmatched2 {
+    padding-top: 8px;
+    padding-right: 10px;
+    width: 50px;
     color: blue;
     background-color: rgb(14, 192, 14);
     text-align: right;
 }
 
-.wordmismatched2{
-    width: 60px;
+.wordmismatched2 {
+    padding-top: 8px;
+    padding-right: 10px;
+    width: 50px;
     color: yellow;
     background-color: red;
     text-align: right;
 }
 
-.wordmatched{
+.wordmatched {
     width: 40px;
     height: 40px;
 }
 
-.wordmismatched{
+.wordmismatched {
     width: 40px;
     height: 40px;
 }
