@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
     <title>Words Puzzle</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1>Words Puzzle</h1>
+    <p id="heading">Words Puzzle</p>
+    <p id="timer" class="timer">Time Left: </p>
     <div class="main">
         <div class="sub">
             <table>
@@ -86,6 +89,24 @@
             <table id="wordslist"></table>
         </div>
     </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Words Puzzle - Result</h2>
+            </div>
+            <div class="modal-body">
+                <p id="modal-body"></p>
+            </div>
+            <div class="modal-footer">
+                <h3>Prepared by: Nasir Raza</h3>
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>
