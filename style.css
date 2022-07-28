@@ -35,7 +35,7 @@ p {
     margin-left: 60px;
     margin-right: 10px;
     margin-top: 5px;
-    width: 39.5%;
+    width: 38%;
     border: solid 2px rgb(61, 150, 147);
     background-color: rgb(255, 250, 250);
     overflow-y: auto;
@@ -43,7 +43,8 @@ p {
 }
 
 .input {
-    width: 352px;
+    padding-left: 10px;
+    width: 330px;
     height: 40px;
     font-size: x-large;
     color: blue;
@@ -60,6 +61,7 @@ td {
 }
 
 .score {
+    padding-left: 10px;
     text-align: Left;
     font-size: x-large;
     height: 20px;
